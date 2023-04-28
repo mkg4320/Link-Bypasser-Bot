@@ -134,7 +134,7 @@ def mdisk(url):
         'Accept': '*/*',
         'Accept-Language': 'en-US,en;q=0.5',
         'Accept-Encoding': 'gzip, deflate, br',
-        'Referer': 'https://mdisk.me/',
+        'Referer': 'https://vivdisk.com/',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36'
     }
     id = url.split("/")[-1]
