@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/mkg4320/Link-Bypasser-Bot /Link-Bypasser-Bot
+  git clone https://github.com/mkg4320/Link-Bypasser-Bot.git /Link-Bypasser-Bot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Link-Bypasser-Bot
