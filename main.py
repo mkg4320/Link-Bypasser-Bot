@@ -13,9 +13,9 @@ import re
 
 
 # bot
-bot_token = os.environ.get("TOKEN", "")
-api_hash = os.environ.get("HASH", "") 
-api_id = os.environ.get("ID", "")
+bot_token = os.environ.get("TOKEN", "6177013159:AAFXAuva-QC0tavsByRxiVOTSPzE2LTbMvo")
+api_hash = os.environ.get("HASH", "6ddb28a13ffc2f15dc16f06be6ca3c1f") 
+api_id = os.environ.get("ID", "12267130")
 app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)  
 
 
