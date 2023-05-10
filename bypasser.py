@@ -1213,8 +1213,13 @@ def gdtot(url):
                 "GET", f"{p_url.scheme}://{p_url.hostname}/ddl/{url.split('/')[-1]}")
         except Exception as e:
             return (f'ERROR: {e.__class__.__name__}')
-        if (drive_link := findall(r"myDl\('(.*?)'\)", res.text)) and "drive.google.com" in drive_link[0]:
-            return drive_link[0]
+        if (drive_link = findall(r"myDl\('(.*?)'\)", res.text)
+if drive_link and "drive.google.com" in drive_link[0]:
+    # your code here
+
+		
+		
+            
         else:
             return (
                 'ERROR: Drive Link not found, Try in your broswer')
